@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Angel Emmanuel | Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script><script>
+tailwind.config = {
+  theme: {
+    extend: {
+      animation: {
+        fade: "fadeIn 1s ease-in-out",
+        zoom: "zoomIn 0.5s ease-in-out",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        zoomIn: {
+          "0%": { transform: "scale(0.95)", opacity: 0 },
+          "100%": { transform: "scale(1)", opacity: 1 },
+        }
+      }
+    }
+  }
+}
+</script></head>
+<body class="bg-gray-50 text-gray-800 font-sans animate-fade">
+  <header class="bg-blue-900 text-white py-10 shadow-md animate-fade">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-5xl md:text-6xl font-display font-bold tracking-tight leading-snug mb-3">
+        Angel Emmanuel
+      </h1>
+      <p class="text-lg md:text-xl font-inter text-blue-200 mb-6">
+        Senior in Computer Information Systems & Front-End Developer
+      </p>
+      <nav class="space-x-8 text-lg font-inter">
+        <a href="#projects" class="hover:text-blue-300 transition duration-200">Projects</a>
+        <a href="#resume" class="hover:text-blue-300 transition duration-200">Resume</a>
+        <a href="#contact" class="hover:text-blue-300 transition duration-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="px-6 py-24 bg-gradient-to-br from-white to-gray-100 text-center animate-fade">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-400 mb-6 tracking-tight font-display">
+        About Me
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 font-inter leading-relaxed">
+        I’m a passionate web developer and Computer Information Systems student dedicated to crafting clean, accessible, and user-centered digital experiences. 
+        With a strong foundation in front-end development and a love for creative problem-solving, this portfolio showcases my journey and the projects I’ve built so far.
+      </p>
+    </div>
+  </section>
+  
+  <section class="bg-white py-16 px-4" id="projects">
+<h2 class="text-3xl font-bold text-center mb-12">My Projects</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+  <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-center">
+  <img alt="Project 1 Screenshot" class="w-full h-auto rounded mb-4" src="ProjectPhotos/EthicalHARMHP.PNG"/>
+    <h3 class="text-xl font-semibold mb-2">Writing Services Website</h3>
+    <p class="text-gray-600 mb-3">Project for a Music artist giving consultations.</p>
+    <a class="text-blue-600 hover:underline" href="https://ethicalharmonies.netlify.app/">View Project</a>
+</div>
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-center">
+    <img alt="Project 2 Screenshot" class="w-full h-auto rounded mb-4" src="ProjectPhotos/AccesoriesHP.PNG"/>
+    <h3 class="text-xl font-semibold mb-2">Accesories Ecommerce Website</h3>
+    <p class="text-gray-600 mb-3">Womens Accsories website for Ecommerce.</p>
+    <a class="text-blue-600 hover:underline" href="https://glamher.netlify.app/">View Project</a>
+  </div>
+  <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-center">
+    <img alt="Project 2 Screenshot" class="w-full h-auto rounded mb-4" src="ProjectPhotos/NASAHP.PNG"/>
+    <h3 class="text-xl font-semibold mb-2">Nasa Website Internship</h3>
+    <p class="text-gray-600 mb-3">Nasa website created for my Internship with ADAPT-EI and NASA Internship.</p>
+    <a class="text-blue-600 hover:underline" href="https://angelsnasa.netlify.app/location%20page">View Project</a>
+  </div>
+</div>
+</section>
+<section class="bg-gradient-to-br from-gray-100 to-white py-20 px-4" id="resume">
+<div class="max-w-5xl mx-auto text-center animate-fade">
+<h2 class="text-4xl font-bold mb-8 text-gray-800">My Resume</h2>
+<div class="group inline-block transform transition duration-500 hover:shadow-2xl">
+<a class="block overflow-hidden rounded-2xl border border-gray-300 bg-white shadow-xl" download="" href="ProjectPhotos/Angel Emmanuel Resume Cover Letter.pdf">
+<iframe class="w-[90vw] md:w-[800px] h-[600px]  rounded-2xl" frameborder="0" src="ProjectPhotos/Angel Emmanuel Resume Cover Letter.pdf">
+</iframe>
+<div class="bg-blue-700 text-white py-3 text-lg font-semibold tracking-wide group-hover:bg-blue-800 transition">
+          ⬇ Download Full Resume
+        </div>
+</a>
+</div>
+</div>
+</section>
+<section class="px-4 py-16 text-center" id="contact">
+<h2 class="text-3xl font-bold mb-4">Contact</h2>
+<p class="text-lg">Email me at <a class="text-blue-600 hover:underline" href="mailto:angel.l.emmanuel@students.cookman.edu">angel.l.emmanuel@students.cookman.edu</a></p>
+</section>
+<footer class="bg-blue-900 text-white text-center p-4 mt-12">
+<p>© 2025 Angel Emmanuel</p>
+</footer>
+</body>
+</html>
